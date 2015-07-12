@@ -1,10 +1,3 @@
-## StatusDeck
-
-For help, please email sam@onroi.com. You can also tweet at me @snellingio.
-
-If you have purchased the Business Status Page package, and need phone support, drop me an email and we'll set up a call.
-
-----
 
 ### Configuration
 
