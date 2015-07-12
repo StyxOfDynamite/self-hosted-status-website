@@ -4,25 +4,24 @@
 To configure, please only edit the CONFIGURATION.php file in the root. No other files need to be touched.
 
 You will see a couple of files in the root directory that look slightly odd. You DO NOT need to touch them however. Here is a quick explanation of them:
-.htaccess 			-> This is a default override file for Apache servers. Heroku uses it as well. 
-.user.ini 			-> This is a default override on the memory limit for Heroku. This enables 19 PHP processes vs the default 4.
-composer.json 		-> This is a configuration file for autoloading components.
-composer.lock 		-> This is used for the composer.json. Don't touch this or the json, they've already been optimized for you.
-CONFIGURATION.php 	-> This is the ONLY file you should touch. It holds all the settings for the status page.
-index.php 			-> This is the main entry file that loads your configurations.
-Procfile 			-> This is a configuration file for Heroku that tells Heroku to use PHP.
-README.md 			-> This is the readme.
-/app/ 				-> This is where all of the application logic is.
+
+| File              |                                                                                                            |
+|-------------------|------------------------------------------------------------------------------------------------------------|
+| .htaccess         | This is a default override file for Apache servers. Heroku uses it as well.                                |
+| .user.ini         | This is a default override on the memory limit for Heroku. This enables 19 PHP processes vs the default 4. |
+| composer.json     | This is a configuration file for autoloading components.                                                   |
+| composer.lock     | This is used for the composer.json. Don't touch this or the json, they've already been optimized for you.  |
+| CONFIGURATION.php | This is the ONLY file you should touch. It holds all the settings for the status page.                     |
+| index.php         | This is the main entry file that loads your configurations.                                                |
+| Procfile          | This is a configuration file for Heroku that tells Heroku to use PHP.                                      |
+| README.md         | This is the readme                                                                                         |
+| /app/             | This is where the application logic is.          
 
 You will never have to touch anything within the /app/ folder. If you are not using Heroku, your data will be stored in /app/data/
 
 ----
 
 ### Installing & Troubleshooting
-
-### Videos
-
-Please visit http://statusdeck.com/help.html for instructional videos on how to configure StatusDeck.
 
 #### php.ini configuration
 
